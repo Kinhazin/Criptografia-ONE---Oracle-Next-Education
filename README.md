@@ -7,7 +7,7 @@ O projeto prático como desafio de conclusão do primeiro módulo: "**Iniciante 
 
 ## Objetivo
 
-O desafio conta com o objetivo de desenvolver a **lógica de programção** juntamente aos fudamentos do **desenvolvimento web**, contando com alguns requisitos que a página deve atender.
+O desafio conta com o objetivo de desenvolver a lógica de programação juntamente aos fundamentos do desenvolvimento web, contando com alguns requisitos que a página deve atender.
 
 ### Requisitos
 
