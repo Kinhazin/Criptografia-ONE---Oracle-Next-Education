@@ -27,7 +27,6 @@ O desafio conta com o objetivo de desenvolver a **lógica de programção** junt
 <img src="https://github.com/Kinhazin/Criptografia-ONE---Oracle-Next-Education/blob/main/assets/PaginaWebGif.gif?raw=true">
 
 ### Template base 
-<img src ="https://github.com/Kinhazin/Criptografia-ONE---Oracle-Next-Education/blob/main/assets/Template%20original.png?raw=true" width="730" height="460">
 
 * **Obs**: *A página **não** precisa necessariamente seguir o designer original, apenas atender aos requsitos estabelecidos.*
 
