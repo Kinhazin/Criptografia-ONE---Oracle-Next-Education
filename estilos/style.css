@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:wght@400;600;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+}
+
+.background-video video {
+    width: 105%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cabecalho {
+    height: 7%;
+    width: auto;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cripto {
+    width: 100%;
+    height: 85%;
+    padding: 3% 4% 2% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.encriptador {
+    width: 80%;
+    height: 70%;
+}
+
+.cripto__texto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.aviso {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #5e488a;
+    font-family: "Source Code Pro", monospace;
+}
+
+.caixa-texto {
+    width: 50%;
+    height: 90%;
+    background-color: transparent;
+    border-radius: 16px;
+    border-color: transparent;
+    font-size: 2.10rem;
+    color: #00FF00;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 300;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #00FF00;
+    opacity: 0.5;
+}
+
+.cripto__resultado {
+    width: 23%;
+    height: 100%;
+    border-radius: 16px;
+    border: 2px solid rgba(0, 255, 0, 0.4);
+    position: relative;
+}
+
+.cripto__resultado-pre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    height: 70%;
+}
+
+.pre_textos {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    justify-content: space-between;
+    gap: 40%;
+}
+
+.caixa-texto__pre-resultado {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.15rem;
+    color: #fffbff;
+    text-align: center;
+}
+
+.caixa-texto__pre-resultado2 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 300;
+    font-family: "Source Code Pro", monospace;
+    font-size: 1rem;
+    color: #fffbff;
+    text-align: center;
+}
+
+.criptografado{
+    display: flex;
+    flex-direction:column;
+    padding: 5%;
+    white-space: normal;
+    max-width: 100%;
+    height:auto;
+    white-space: normal;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+
+.criptografado__copiar{
+    position: absolute;
+    bottom: 4%;
+    left: 40%;
+    width: auto;
+    height: auto;    
+}
+
+p#output{
+    white-space: normal;
+    font-weight: 300;
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.15rem;
+    color: #fffbff;
+    width: 100%;
+    height: 100%;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+
+
+.botoes__estetica {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    gap: 5%;
+    height: 25%;
+    width: 70%;
+    padding-bottom: 10px;
+}
+
+.botao {
+    width: auto;
+    height: auto;
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: transparent;
+    color: #fffbff;
+    font-size: 1.15rem;
+    font-family: "Source Code Pro", monospace;
+
+}
+
+.rodape {
+    margin-top: 1%;
+    height: 5.8%;
+    width: 100%;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0.4;
+}
+
+.rodape__texto {
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.10rem;
+    font-weight: 700;
+    color: #fffbff;
+
+}
+
+.rodape__texto__link {
+    text-decoration: none;
+    color: #00FF00;
+
+}
+
+.cadeado {
+    width: 70%;
+    height: auto;
+    margin-top: 20%;
+    z-index: -1;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="js/javasrcript.js"></script>
+    <title>Al-Kindi</title>
+</head>
+
+<body>
+    <section class="background-video">
+        <video src="assets/VideoDeFundo.mp4" autoplay muted loop></video>
+    </section>
+    <header class="cabecalho"></header>
+    <main class="cripto">
+        <section class="encriptador">
+            <div class="cripto__texto">
+                <textarea minlength="1" maxlength="330" id="inputText" class="caixa-texto"
+                    placeholder="Digite seu texto aqui..."></textarea>
+            </div>
+            <p class="aviso"> ! Apenas letras minúsculas e sem acento.</p>
+            <div class="botoes__estetica">
+                <button onclick="codificarMensagem()" id="codificar" class="botao">Codificar</button>
+                <button onclick="decodificarMensagem()" id="decodificar" class="botao">Decodificar</button>
+            </div>
+        </section>
+        <section class="cripto__resultado">
+            <div class="cripto__resultado-pre">
+                <img class="cadeado" src="assets/Caveirao-unscreen.gif">
+                <div class="pre_textos">
+                    <p class="caixa-texto__pre-resultado">Nenhuma mensagem encontrada</p>
+                    <p class="caixa-texto__pre-resultado2">Digite um texto que você deseja criptografar ou
+                        descriptografar.</p>
+                </div>
+            </div>
+            <div class="criptografado">
+                <p id="output"></p>
+            </div>
+            <div class="criptografado__copiar">
+                <button onclick="copiarTexto()" class="botao">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido by <a class="rodape__texto__link"
+                href="https://www.linkedin.com/in/lucas-amorim-maia-a3280a225/" target="_blank">@Lucas Amorim</a>
+        </p>
+    </footer>
+</body>
+
+</html>
