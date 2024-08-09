@@ -3,7 +3,7 @@
 ### 🔑Al-Kidin: Decoficador de texto🔑
 
 ## Sobre
-O projeto prático do primeiro módulo: "**Iniciante em Programação T7 - ONE**" se trata da criação de um codificador e decodificar de texto, aplicando conhecimento de **HTML**, **CSS** & **Javascript**. 
+O projeto prático como desafio de conclusão do primeiro módulo: "**Iniciante em Programação T7 - ONE**" se trata da criação de um codificador e decodificar de texto, aplicando conhecimento de **HTML**, **CSS** & **Javascript**. 
 
 ## Objetivo
 
