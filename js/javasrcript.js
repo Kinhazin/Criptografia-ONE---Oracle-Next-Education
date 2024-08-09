@@ -6,7 +6,7 @@ brandInput = addEventListener("keypress", function (e) {
     }
 });
 
-//Sumindo com o botão de copiar.
+//Sumindo com o botão de copiar ao iniciar a página.
 document.addEventListener("DOMContentLoaded", function () {
     var elementosCopiar = document.getElementsByClassName("criptografado__copiar");
     for (var i = 0; i < elementosCopiar.length; i++) {
