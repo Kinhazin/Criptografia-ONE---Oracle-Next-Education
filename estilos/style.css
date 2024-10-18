@@ -193,7 +193,7 @@ p#output{
 
 }
 
-.botar:hover{
+button:hover{
     cursor: pointer;
 }
 
