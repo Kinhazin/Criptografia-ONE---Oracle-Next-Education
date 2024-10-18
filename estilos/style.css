@@ -193,6 +193,10 @@ p#output{
 
 }
 
+.botar:hover{
+    cursor: pointer;
+}
+
 .rodape {
     margin-top: 1%;
     height: 5.8%;
